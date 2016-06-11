@@ -1,5 +1,4 @@
-// var mongoose = require('mongoose');
-// var Pref = mongoose.model('Preference');
+
 var Pref = require('./db');
 
 var sendJSONresponse = function(res, status, content) {
